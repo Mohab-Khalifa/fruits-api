@@ -23,7 +23,7 @@ class FruitModel {
         if(fruits.length > 0) {
             return fruits.map(f => new FruitModel(f))
         } else {
-            throw "No fruits found with that name."
+            throw "Bro, that's not even a fruit!"
         }
     }
 
